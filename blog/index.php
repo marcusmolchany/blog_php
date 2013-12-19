@@ -32,13 +32,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Marcus Molchany's Blog</a>
+          <a class="navbar-brand" href="/first_twitter_bootstrap_page/">Marcus Molchany's Blog</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="blog">Blog</a></li>
-            <li><a href="about">About</a></li>
+            <li class="active"><a href="/first_twitter_bootstrap_page/">Home</a></li>
+            <li><a href="/first_twitter_bootstrap_page/blog">Blog</a></li>
+            <li><a href="/first_twitter_bootstrap_page/about">About</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
@@ -71,10 +71,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!--
-    <script src="assets/js/jquery.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="js/offcanvas.js"></script>
-  -->
+    <script src="/first_twitter_bootstrap_page/assets/js/jquery.js"></script>
+    <script src="/first_twitter_bootstrap_page/dist/js/bootstrap.min.js"></script>
+    <script src="/first_twitter_bootstrap_page/js/offcanvas.js"></script>
   </body>
 </html>
