@@ -46,6 +46,19 @@
 
     <div class="container">
 
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <img src="/first_twitter_bootstrap_page/images/profile.jpg" id="profile">
+            <h1>Blog</h1>
+            <h2>First Post</h2>
+            <p>Text</p>
+          </div>
+        </div><!--/span-->
+
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="well sidebar-nav">
             <ul class="nav">
