@@ -60,20 +60,34 @@
             <p>Text</p>
           </div>
           <div class="well well-sm">
-            <h2>Third Post Title</h2>
-            <p>Text</p>
+            <article>
+<!--
+              <div class="post-meta">
+                <time datetime="YYYY-MM-DD">11 Mar <span class="year">2012</span></time>
+                <span class="comments-link"><a href="http://f6design.com/journal/2012/03/11/configuring-virtualhosts-in-xampp-on-mac/#comments" title="Comment on Configuring VirtualHosts in XAMPP on Mac">38</a></span>
+              </div>
+-->
+              <h2>Third Post Title</h2>
+              <p>Text</p>
+            </article>
           </div>
           <div class="well well-sm">
-            <h2>Third Post Title</h2>
-            <p>Text</p>
+            <article>
+              <h2>Third Post Title</h2>
+              <p>Text</p>
+            </article>
           </div>
           <div class="well well-sm">
-            <h2>Second Post Title</h2>
-            <p>Text</p>
+            <article>
+              <h2>Second Post Title</h2>
+              <p>Text</p>
+            </article>
           </div>
           <div class="well well-sm">
-            <h2>First Post Title</h2>
-            <p>Text</p>
+            <article>
+              <h2>First Post Title</h2>
+              <p>Text</p>
+            </article>
           </div>
         </div><!--/span-->
 
