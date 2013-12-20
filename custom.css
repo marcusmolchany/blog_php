@@ -1,11 +1,14 @@
 img {
+/*
   float:right;
   margin: 0 auto 25px;
   display: block;
+*/
 }
 
 #profile {
-  border-radius: 200px;
-  height: 200px;
-  width: 200px;
+
+  display: block;
+  height: auto;
+  max-width: 100%;
 }

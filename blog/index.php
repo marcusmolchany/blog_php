@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="/first_twitter_bootstrap_page/assets/ico/favicon.png">
 
     <title>Marcus Molchany's Blog (Build on Bootstrap)</title>
 
@@ -36,8 +36,8 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/first_twitter_bootstrap_page/">Home</a></li>
-            <li><a href="/first_twitter_bootstrap_page/blog">Blog</a></li>
+            <li><a href="/first_twitter_bootstrap_page/">Home</a></li>
+            <li class="active"><a href="/first_twitter_bootstrap_page/blog">Blog</a></li>
             <li><a href="/first_twitter_bootstrap_page/about">About</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
@@ -52,9 +52,25 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <img src="/first_twitter_bootstrap_page/images/profile.jpg" id="profile">
+            <img src="/first_twitter_bootstrap_page/images/profile.jpg" class="img-circle img-responsive" id="profile">
             <h1>Blog</h1>
-            <h2>First Post</h2>
+            <h2>Description</h2>
+            <p>Text</p>
+          </div>
+          <div class="well well-sm">
+            <h2>Third Post Title</h2>
+            <p>Text</p>
+          </div>
+          <div class="well well-sm">
+            <h2>Third Post Title</h2>
+            <p>Text</p>
+          </div>
+          <div class="well well-sm">
+            <h2>Second Post Title</h2>
+            <p>Text</p>
+          </div>
+          <div class="well well-sm">
+            <h2>First Post Title</h2>
             <p>Text</p>
           </div>
         </div><!--/span-->

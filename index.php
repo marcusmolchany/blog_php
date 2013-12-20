@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="/first_twitter_bootstrap_page/assets/ico/favicon.png">
 
     <title>Marcus Molchany's Blog (Build on Bootstrap)</title>
 
@@ -52,7 +52,7 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-	    <img src="images/profile.jpg" id="profile">
+	          <img src="images/profile.jpg" class="img-circle img-responsive" id="profile">
             <h1>Hello, world!</h1>
             <p>Welcome to my tech blog. It is very underconstruction so stay posted for updates.</p>
           </div>
