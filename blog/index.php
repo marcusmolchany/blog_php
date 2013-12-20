@@ -38,6 +38,8 @@
           <ul class="nav navbar-nav">
             <li><a href="/first_twitter_bootstrap_page/">Home</a></li>
             <li class="active"><a href="/first_twitter_bootstrap_page/blog">Blog</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="/first_twitter_bootstrap_page/about">About</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
