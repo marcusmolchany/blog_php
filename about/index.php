@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/first_twitter_bootstrap_page/assets/ico/favicon.png">
+    <link rel="shortcut icon" href="/first_twitter_bootstrap_page/images/favicon.png">
 
     <title>Marcus Molchany's Blog (Build on Bootstrap)</title>
 
@@ -62,6 +62,8 @@
             <a href="https://github.com/marcusmolchany">github</a>
             <p></p>
             <a href="https://linkedin.com/in/marcusmolchany">linkedin</a>
+            <p></p>
+            <a href="/first_twitter_bootstrap_page/images/Resume_2013.pdf">resume</a>
           </div>
         </div><!--/span-->
 
