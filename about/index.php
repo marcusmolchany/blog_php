@@ -64,6 +64,12 @@
             <a href="https://linkedin.com/in/marcusmolchany" target="_blank">linkedin</a>
             <p></p>
             <a href="<?php echo $_SERVER['DOC_ROOT']; ?>/images/Resume_2013.pdf" target="_blank">resume</a>
+            <p></p>
+            <p></p>
+            <p>
+              This page is <a href="https://github.com/marcusmolchany/first_twitter_bootstrap_page">100% open source</a>!
+              Feel free to view, review or even fork this repository.
+            </p>
           </div>
         </div><!--/span-->
 
