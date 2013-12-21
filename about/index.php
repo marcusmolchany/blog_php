@@ -57,13 +57,13 @@
             <img src="/first_twitter_bootstrap_page/images/profile.jpg" class="img-circle img-responsive" id="profile">
             <h1>About</h1>
             <p>Marcus Molchany</p>
-            <a href="https://twitter.com/molchanimal">@molchanimal</a>
+            <a href="https://twitter.com/molchanimal" target="_blank">@molchanimal</a>
             <p></p>
-            <a href="https://github.com/marcusmolchany">github</a>
+            <a href="https://github.com/marcusmolchany" target="_blank">github</a>
             <p></p>
-            <a href="https://linkedin.com/in/marcusmolchany">linkedin</a>
+            <a href="https://linkedin.com/in/marcusmolchany" target="_blank">linkedin</a>
             <p></p>
-            <a href="/first_twitter_bootstrap_page/images/Resume_2013.pdf">resume</a>
+            <a href="/first_twitter_bootstrap_page/images/Resume_2013.pdf" target="_blank">resume</a>
           </div>
         </div><!--/span-->
 
