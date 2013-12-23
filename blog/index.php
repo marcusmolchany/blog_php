@@ -1,4 +1,6 @@
 <?php
+  include $_SERVER['DOC_ROOT'] . "../lib/NavBar.php";
+
   //Database Connection
   $sqlConn =  new mysqli('localhost', 'root', '', 'marcusdb');
 
@@ -10,15 +12,15 @@
 
   //Copy result into a associative array
   $resultArray = $result->fetch_all(MYSQLI_ASSOC);
-  printr($resultArray);
+  //printr($resultArray);
 
   //Copy result into a numeric array
   $resultArray = $result->fetch_all(MYSQLI_NUM);
-  printr($resultArray);
+  //printr($resultArray);
 
   //Copy result into both a associative and numeric array
   $resultArray = $result->fetch_all(MYSQLI_BOTH);
-  printr($resultArray);
+  //printr($resultArray);
 
   function printr($s){echo "<pre>";print_r($s);echo "</pre>";};
 ?>
@@ -49,27 +51,11 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="<?php echo $_SERVER['DOC_ROOT']; ?>/">Marcus Molchany's Blog</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="<?php echo $_SERVER['DOC_ROOT']; ?>/">Home</a></li>
-            <li class="active"><a href="/blog">Blog</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?php echo $_SERVER['DOC_ROOT']; ?>/about">About</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </div><!-- /.navbar -->
+    <?php
+      $navbar = new NavBar('blog');
+
+      $navbar->displayNavBar();
+    ?>
 
     <div class="container">
 
