@@ -67,7 +67,7 @@
             <p></p>
             <p></p>
             <p>
-              This page is <a href="https://github.com/marcusmolchany/first_twitter_bootstrap_page">100% open source</a>!
+              This page is <a href="https://github.com/marcusmolchany/first_twitter_bootstrap_page" target="_blank">100% open source</a>!
               Feel free to view, review or even fork this repository.
             </p>
           </div>
