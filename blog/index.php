@@ -1,7 +1,8 @@
 <?php
-  include $_SERVER['DOC_ROOT'] . "../lib/Header.php";
+  include $_SERVER['DOC_ROOT'] . "../lib/Head.php";
   include $_SERVER['DOC_ROOT'] . "../lib/NavBar.php";
   include $_SERVER['DOC_ROOT'] . "../lib/Footer.php";
+  include $_SERVER['DOC_ROOT'] . "../lib/ScriptSource.php";
 
   //Database Connection
   $sqlConn =  new mysqli('localhost', 'root', '', 'marcusdb');
@@ -30,9 +31,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php
-    $header = new Header();
+    $head = new Head();
 
-    $header->displayHeader();
+    $head->displayHead();
   ?>
 
   <body>
@@ -99,18 +100,18 @@
         </div><!--/span-->
       </div><!--/row-->
 
-      <hr>
+      <?php
+        $footer = new Footer();
 
-      <footer>
-        <p>&copy; Marcus Molchany 2013</p>
-      </footer>
+        $footer->displayFooter();
+      ?>
 
     </div><!--/.container-->
 
     <?php
-      $footer = new Footer();
-      
-      $footer->displayFooter();
+      $scriptSource= new ScriptSource();
+
+      $scriptSource->displayScriptSource();
     ?>
   </body>
 </html>
