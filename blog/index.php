@@ -1,5 +1,7 @@
 <?php
+  include $_SERVER['DOC_ROOT'] . "../lib/Header.php";
   include $_SERVER['DOC_ROOT'] . "../lib/NavBar.php";
+  include $_SERVER['DOC_ROOT'] . "../lib/Footer.php";
 
   //Database Connection
   $sqlConn =  new mysqli('localhost', 'root', '', 'marcusdb');
@@ -27,28 +29,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="<?php echo $_SERVER['DOC_ROOT']; ?>/images/favicon.png">
+  <?php
+    $header = new Header();
 
-    <title>Marcus Molchany's Blog (Build on Bootstrap)</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type ="text/css" href="<?php echo $_SERVER['DOC_ROOT']; ?>/dist/css/bootstrap.min.css"/>
-
-    <!-- Custom styles for this template -->
-    <link href="<?php echo $_SERVER['DOC_ROOT']; ?>/css/offcanvas.css" rel="stylesheet">
-    <link href="<?php echo $_SERVER['DOC_ROOT']; ?>/css/custom.css"    rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
+    $header->displayHeader();
+  ?>
 
   <body>
     <?php
@@ -122,13 +107,10 @@
 
     </div><!--/.container-->
 
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo $_SERVER['DOC_ROOT']; ?>/assets/js/jquery.js"></script>
-    <script src="<?php echo $_SERVER['DOC_ROOT']; ?>/dist/js/bootstrap.min.js"></script>
-    <script src="<?php echo $_SERVER['DOC_ROOT']; ?>/js/offcanvas.js"></script>
+    <?php
+      $footer = new Footer();
+      
+      $footer->displayFooter();
+    ?>
   </body>
 </html>
