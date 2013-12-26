@@ -12,7 +12,7 @@ abstract class SqlConnector {
 	abstract protected $result;
 	abstract protected $resultArray;
 
-	abstract protected function __construct($hostName, $userName, $password, $databaseName, $tableName) {
+	abstract public function __construct($hostName, $userName, $password, $databaseName, $tableName) {
 		$this->$hostName = $hostName;
 		$this->$userName = $userName;
 		$this->$password = $password;
