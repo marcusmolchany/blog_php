@@ -12,7 +12,7 @@ abstract class SqlConnector {
 	abstract protected $result;
 	abstract protected $resultArray;
 
-	abstract public function __construct($hostName, $userName, $password, $databaseName, $tableName) {
+	public function __construct($hostName, $userName, $password, $databaseName, $tableName) {
 		$this->$hostName = $hostName;
 		$this->$userName = $userName;
 		$this->$password = $password;
@@ -23,32 +23,32 @@ abstract class SqlConnector {
 		$this->$sqlConn =  new mysqli($hostName, $userName, $password, $tableName);
 	}
 
-	abstract protected function buildSqlString() {
+	protected function buildSqlString() {
 		//Build SQL String
 		$this->$sqlString = "SELECT * FROM " . $this->$databaseName . "." . $this->$tableName;
 	}
 
-	abstract protected function executeSqlQuery() {
+	protected function executeSqlQuery() {
 		//Execute the query and put data into a result
 		$this->$result = $this->$sqlConn->query($this->$sqlString);
 	}
 
-	abstract protected function copyToAssociativeArray() {
+	protected function copyToAssociativeArray() {
 		//Copy result into a associative array
 		$this->$resultArray = $this->$result->fetch_all(MYSQLI_ASSOC);
 	}
 
-	abstract protected function copyToNumericArray() {
+	protected function copyToNumericArray() {
 		//Copy result into a associative array
 		$this->$resultArray = $this->$result->fetch_all(MYSQLI_NUM);
 	}
 
-	abstract protected function copyToAssociativeAndNumericArray() {
+	protected function copyToAssociativeAndNumericArray() {
 		//Copy result into both a associative and numeric array
 		$this->$resultArray = $this->$result->fetch_all(MYSQLI_BOTH);
 	}
 
-	abstract protected function printArray() {
+	protected function printArray() {
 		printr($this->resultArray);
 	}
 
