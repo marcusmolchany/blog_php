@@ -1,16 +1,27 @@
 <?php
 abstract class SqlConnector {
 
-	abstract protected $hostName;
-	abstract protected $userName;
-	abstract protected $password;
-	abstract protected $databaseName;
-	abstract protected $tableName;
+	//abstract protected $hostName;
+	//abstract protected $userName;
+	//abstract protected $password;
+	//abstract protected $databaseName;
+	//abstract protected $tableName;
 
-	abstract protected $sqlConn;
-	abstract protected $sqlString;
-	abstract protected $result;
-	abstract protected $resultArray;
+	//abstract protected $sqlConn;
+	//abstract protected $sqlString;
+	//abstract protected $result;
+	//abstract protected $resultArray;
+
+	protected $hostName;
+	protected $userName;
+	protected $password;
+	protected $databaseName;
+	protected $tableName;
+
+	protected $sqlConn;
+	protected $sqlString;
+	protected $result;
+	protected $resultArray;
 
 	public function __construct($hostName, $userName, $password, $databaseName, $tableName) {
 		$this->$hostName = $hostName;
@@ -20,7 +31,10 @@ abstract class SqlConnector {
 		$this->$tableName = $tableName;
 
 		//Database Connection
-		$this->$sqlConn =  new mysqli($hostName, $userName, $password, $tableName);
+		$this->$sqlConn =  new mysqli($hostName, $userName, $password, $databaseName);
+		if ($sqlConn->connect_errno) {
+		    echo "Failed to connect to MySQL: (" . $sqlConn->connect_errno . ") " . $sqlConn->connect_error;
+		}
 	}
 
 	protected function buildSqlString() {
@@ -52,7 +66,7 @@ abstract class SqlConnector {
 		printr($this->resultArray);
 	}
 
-	protected function printr($s){echo "<pre>";print_r($s);echo "</pre>";};
+	protected function printr($s){echo "<pre>";print_r($s);echo "</pre>";}
 
 	// from http://stackoverflow.com/questions/10940332/how-to-fetch-all-the-row-of-the-result-in-php-mysql
 	//protected function connectToSqlTable() {

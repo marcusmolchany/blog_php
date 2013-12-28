@@ -3,7 +3,7 @@
   include $_SERVER['DOC_ROOT'] . "../lib/NavBar.php";
   include $_SERVER['DOC_ROOT'] . "../lib/Footer.php";
   include $_SERVER['DOC_ROOT'] . "../lib/ScriptSource.php";
-  include $_SERVER['DOC_ROOT'] . "../lib/PostSqlConnector";
+  include $_SERVER['DOC_ROOT'] . "../lib/PostSqlConnector.php";
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
     ?>
 
     <?php
-      $postSqlConnector = new PostSqlConnector('localhost', 'root', '');
+      $postSqlConnector = new PostSqlConnector('localhost', 'root', '$');
 
       $postSqlConnector->buildSqlString();
       $postSqlConnector->executeSqlQuery();
