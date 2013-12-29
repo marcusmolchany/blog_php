@@ -25,11 +25,11 @@ class NavBar {
 		          // determine which page is being display and set that tab on the navbar as active
 
 		          // check if "home" page is active
-		          if (strpos($this->pageType, 'home') === false) {
-		          	echo "<li><a href='" . $_SERVER['DOC_ROOT'] . "/'>Home</a></li>";
-		          } else {
-		          	echo "<li class='active'><a href='" . $_SERVER['DOC_ROOT'] . "/'>Home</a></li>";
-		          }
+		          //if (strpos($this->pageType, 'home') === false) {
+		          //	echo "<li><a href='" . $_SERVER['DOC_ROOT'] . "/'>Home</a></li>";
+		          //} else {
+		          //	echo "<li class='active'><a href='" . $_SERVER['DOC_ROOT'] . "/'>Home</a></li>";
+		          //}
 
 				  // check if "blog" page is active
 		          if (strpos($this->pageType, 'blog') === false) {
