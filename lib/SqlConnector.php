@@ -1,16 +1,8 @@
 <?php
-abstract class SqlConnector {
 
-	//abstract protected $hostName;
-	//abstract protected $userName;
-	//abstract protected $password;
-	//abstract protected $databaseName;
-	//abstract protected $tableName;
+include $_SERVER['DOC_ROOT'] . "AbstractSqlConnector.php";
 
-	//abstract protected $sqlConn;
-	//abstract protected $sqlString;
-	//abstract protected $result;
-	//abstract protected $resultArray;
+abstract class SqlConnector extends AbstractSqlConnector {
 
 	protected $hostName;
 	protected $userName;
@@ -24,49 +16,57 @@ abstract class SqlConnector {
 	protected $resultArray;
 
 	public function __construct($hostName, $userName, $password, $databaseName, $tableName) {
-		$this->$hostName = $hostName;
-		$this->$userName = $userName;
-		$this->$password = $password;
-		$this->$databaseName = $databaseName;
-		$this->$tableName = $tableName;
+		$this->hostName = $hostName;
+		$this->userName = $userName;
+		$this->password = $password;
+		$this->databaseName = $databaseName;
+		$this->tableName = $tableName;
 
 		//Database Connection
-		$this->$sqlConn =  new mysqli($hostName, $userName, $password, $databaseName);
-		if ($sqlConn->connect_errno) {
+		$this->sqlConn =  new mysqli($hostName, $userName, $password, $databaseName);
+		if ($this->sqlConn->connect_errno) {
 		    echo "Failed to connect to MySQL: (" . $sqlConn->connect_errno . ") " . $sqlConn->connect_error;
 		}
 	}
 
-	protected function buildSqlString() {
+	public function buildSqlString() {
 		//Build SQL String
-		$this->$sqlString = "SELECT * FROM " . $this->$databaseName . "." . $this->$tableName;
+		$this->sqlString = "SELECT * FROM " . $this->databaseName . "." . $this->tableName;
 	}
 
-	protected function executeSqlQuery() {
+	public function executeSqlQuery() {
 		//Execute the query and put data into a result
-		$this->$result = $this->$sqlConn->query($this->$sqlString);
+		$this->result = $this->sqlConn->query($this->sqlString);
 	}
 
-	protected function copyToAssociativeArray() {
+	public function copyToAssociativeArray() {
 		//Copy result into a associative array
-		$this->$resultArray = $this->$result->fetch_all(MYSQLI_ASSOC);
+		$this->resultArray = $this->result->fetch_all(MYSQLI_ASSOC);
 	}
 
-	protected function copyToNumericArray() {
+	public function copyToNumericArray() {
 		//Copy result into a associative array
-		$this->$resultArray = $this->$result->fetch_all(MYSQLI_NUM);
+		$this->resultArray = $this->result->fetch_all(MYSQLI_NUM);
 	}
 
-	protected function copyToAssociativeAndNumericArray() {
+	public function copyToAssociativeAndNumericArray() {
 		//Copy result into both a associative and numeric array
-		$this->$resultArray = $this->$result->fetch_all(MYSQLI_BOTH);
+		$this->resultArray = $this->result->fetch_all(MYSQLI_BOTH);
 	}
 
-	protected function printArray() {
-		printr($this->resultArray);
+	public function printArray() {
+		//printr($this->resultArray);
+		echo "<pre>";
+		print_r($this->resultArray);
+		echo "</pre>";
 	}
 
-	protected function printr($s){echo "<pre>";print_r($s);echo "</pre>";}
+	// TODO: figure out why this doesn't work
+	protected function printr($s){
+		echo "<pre>";
+		print_r($s);
+		echo "</pre>";
+	}
 
 	// from http://stackoverflow.com/questions/10940332/how-to-fetch-all-the-row-of-the-result-in-php-mysql
 	//protected function connectToSqlTable() {

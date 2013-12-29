@@ -22,7 +22,7 @@
     ?>
 
     <?php
-      $postSqlConnector = new PostSqlConnector('localhost', 'root', '$');
+      $postSqlConnector = new PostSqlConnector('localhost', 'root', "");
 
       $postSqlConnector->buildSqlString();
       $postSqlConnector->executeSqlQuery();

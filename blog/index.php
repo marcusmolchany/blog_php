@@ -15,15 +15,15 @@
 
   //Copy result into a associative array
   $resultArray = $result->fetch_all(MYSQLI_ASSOC);
-  //printr($resultArray);
+  printr($resultArray);
 
   //Copy result into a numeric array
   $resultArray = $result->fetch_all(MYSQLI_NUM);
-  //printr($resultArray);
+  printr($resultArray);
 
   //Copy result into both a associative and numeric array
   $resultArray = $result->fetch_all(MYSQLI_BOTH);
-  //printr($resultArray);
+  printr($resultArray);
 
   function printr($s){echo "<pre>";print_r($s);echo "</pre>";};
 ?>
