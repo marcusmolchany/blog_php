@@ -27,7 +27,11 @@
       $postSqlConnector->buildSqlString();
       $postSqlConnector->executeSqlQuery();
       $postSqlConnector->copyToAssociativeArray();
-      $postSqlConnector->printArray();
+      //$postSqlConnector->printArray();
+      $associativityArray = $postSqlConnector->getAssociativityArray();
+      //echo "<pre>";
+      //print_r($associativityArray);
+      //echo "</pre>";
     ?>
 
     <div class="container">
@@ -43,14 +47,31 @@
             <h2>Description</h2>
             <p>Text</p>
           </div>
+
+          <?php
+            foreach ($associativityArray as $blogPost) {
+              /*
+               * extract() will pull out the variables in the associativity array as
+               * $id, $title and $content
+               */
+              extract($blogPost);
+
+              echo '<div class="well well-sm"';
+              echo '  <article>';
+              echo '    <h2>' . $title . '</h2>';
+              echo '    <p>'  . $content . '</p>';
+              echo '  </article>';
+              echo '</div>';
+            }
+          ?>
+
+<!--
           <div class="well well-sm">
             <article>
-<!--
               <div class="post-meta">
                 <time datetime="YYYY-MM-DD">11 Mar <span class="year">2012</span></time>
                 <span class="comments-link"><a href="http://f6design.com/journal/2012/03/11/configuring-virtualhosts-in-xampp-on-mac/#comments" title="Comment on Configuring VirtualHosts in XAMPP on Mac">38</a></span>
               </div>
--->
               <h2>Third Post Title</h2>
               <p>Text</p>
             </article>
@@ -73,6 +94,7 @@
               <p>Text</p>
             </article>
           </div>
+        </div>--><!--/span-->
         </div><!--/span-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">

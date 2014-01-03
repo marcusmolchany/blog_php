@@ -7,5 +7,9 @@ class PostSqlConnector extends SqlConnector{
 	public function __construct($hostName, $userName, $password) {
 		parent::__construct($hostName, $userName, $password, 'marcusdb', 'post');
 	}
+
+	public function getAssociativityArray() {
+		return $this->resultArray;
+	}
 }
 ?>
