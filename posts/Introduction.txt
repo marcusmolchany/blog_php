@@ -1,0 +1,3 @@
+Introduction
+
+I'm Marcus Molchany and I wanted to make a website. In fact, what you're looking at right now is the work in progress which I set out to make about six months ago. This blog is an introspective look at how this page was started, where its headed and how to do it yourself! The main inspiration for starting this website and blog was from a post by Jennifer Dewalt called <a href="http://blog.jenniferdewalt.com/post/46892312080/day-1-the-beginning">180 Websites in 180 Days</a>.
