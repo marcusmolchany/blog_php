@@ -1,0 +1,10 @@
+Domain and Hosting
+
+Place holder for the Domain and Hosting Post
+1. Buying a domain from GoDaddy
+2. Types of hosting
+	a. GoDaddy
+	b. A Small orange
+	c. Amazon Web Services (EC2 & S3)
+	d. etc
+3. How to connect domain and hosting

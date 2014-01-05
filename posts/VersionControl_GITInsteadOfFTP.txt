@@ -1,0 +1,3 @@
+Version Control:GIT instead of FTP
+
+This is a place holder for the post about why you should use version control (specifically GIT) and why cloning a git repository and pulling down updates is better than sending files to your server over FTP.

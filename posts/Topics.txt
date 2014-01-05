@@ -1,6 +1,7 @@
 1. Introduction
 2. Domain & Hosting
-4. index file w/ FTP (ASO)
-4. Using git instead of FTP
-5. Twitter Bootstrap 3
-6. Jekyll or Custom
+3. index file w/ FTP (ASO)
+4. Benefits of Shell Access
+5. Using git instead of FTP
+6. Twitter Bootstrap 3
+7. Jekyll or Custom
