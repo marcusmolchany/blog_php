@@ -18,8 +18,11 @@ class Head {
 	    <link rel='stylesheet' type ='text/css' href='" . $_SERVER['DOC_ROOT'] . "/dist/css/bootstrap.min.css'/>
 
 	    <!-- Custom styles for this template -->
+	    <!--
 	    <link href='" . $_SERVER['DOC_ROOT'] . "/css/offcanvas.css' rel='stylesheet'>
 	    <link href='" . $_SERVER['DOC_ROOT'] . "/css/custom.css'    rel='stylesheet'>
+	    -->
+	    <link href='" . $_SERVER['DOC_ROOT'] . "/css/app.css'    rel='stylesheet'>
 	  </head>
 	  ";
 	}
