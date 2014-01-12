@@ -10,7 +10,7 @@ class PostSqlConnector extends SqlConnector{
 	}
 
 	public function getAssociativityArray() {
-		return $this->resultArray;
+		return array_reverse($this->resultArray);
 	}
 }
 ?>
