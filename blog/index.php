@@ -1,9 +1,9 @@
 <?php
-  include $_SERVER['DOC_ROOT'] . "../lib/Head.php";
-  include $_SERVER['DOC_ROOT'] . "../lib/NavBar.php";
-  include $_SERVER['DOC_ROOT'] . "../lib/Footer.php";
-  include $_SERVER['DOC_ROOT'] . "../lib/ScriptSource.php";
-  include $_SERVER['DOC_ROOT'] . "../lib/PostSqlConnector.php";
+  include $_SERVER['DOC_ROOT'] . "../src/common/Head.php";
+  include $_SERVER['DOC_ROOT'] . "../src/common/NavBar.php";
+  include $_SERVER['DOC_ROOT'] . "../src/common/Footer.php";
+  include $_SERVER['DOC_ROOT'] . "../src/common/ScriptSource.php";
+  include $_SERVER['DOC_ROOT'] . "../src/common/PostSqlConnector.php";
 ?>
 
 <!DOCTYPE html>

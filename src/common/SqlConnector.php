@@ -1,6 +1,6 @@
 <?php
 
-include $_SERVER['DOC_ROOT'] . "AbstractSqlConnector.php";
+include $_SERVER['DOC_ROOT'] . "../src/common/AbstractSqlConnector.php";
 
 abstract class SqlConnector extends AbstractSqlConnector {
 

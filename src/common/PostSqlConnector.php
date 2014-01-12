@@ -1,6 +1,6 @@
 <?php
 
-include $_SERVER['DOC_ROOT'] . "SqlConnector.php";
+include $_SERVER['DOC_ROOT'] . "../src/common/SqlConnector.php";
 
 class PostSqlConnector extends SqlConnector{
 
