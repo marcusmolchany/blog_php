@@ -1,0 +1,5 @@
+Benefits of Shell Acess
+
+<p>One of the cool things about A Small Orange is that they will give you shell access to your hosting server if you ask for it. All you have to do is go to the ASO Dashboard, under the "Support and Assistance" panel click "Support Tickets" and submit a new ticket using the "Submit Ticket" link. In the ticket ask for "shell access" to your hosting server and they will do it for you almost immediately.</p>
+
+<p>Having shell access to your hosting server allows for you to have more control over your website. You can create directories to store future versions of your page and even edit files using vi or emacs if you need to make a quick change. Most importantly you can install new software on your hosting server which allows you to do more things than what is originally provided. The reason I asked for shell access was to install git and clone my repository with all of my website code to my server instead of using FTP to copy over files. If you don't know what git is I touch on it in the next post explaining why git is better than FTP for copying files to your web hosting.</p>
