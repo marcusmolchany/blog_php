@@ -1,3 +1,18 @@
 Index File and FTP
 
 This is a place holder for the post about making and index.html (or index.php) and transferring it up to the server over FTP.
+
+<p>Making a website is simple, in fact all you need to do is save the following code in an "index.html" file and you've made a website:</p>
+<pre>
+	<html>
+	</html>
+</pre>
+<p>Now obviously this isn't the most impressive website in the world, but its how any website starts. HTML is necessary for making any webpage, but there are a lot of other languages that can tied in with HTML to make a website great. Some standard web languages are JavaScript, CSS and PHP and there are some really great tutorials on <a href="http://www.w3schools.com/">W3Schools</a> to get started. There are SIGNIFICANTLY more languages for web programming, each with their own strenghts, frameworks and even communities behind them continuing to update and fix the code base. This page was written in PHP, JavaScript and CSS (<a href="https://github.com/marcusmolchany/first_twitter_bootstrap_page">Site code here</a>) and made liberal use of the open source framework Twitter released known as <a href="http://getbootstrap.com/">Bootstrap</a> (don't worry, there is a future post about this).</p>
+
+<p>My very first index file was:</p>
+<pre>
+	<html>
+		Hello, world!
+	</html>
+</pre>
+<p> a fairly standard first program for any language. Now to make this visible to the world wide web it needs to be copied to your hosting server. There are a lot of ways to do this: FTP, SCP, GIT, even writing the file on your hosting server by hand. At the time, all I knew to do was use cPanel to FTP my file up to my webserver. Turns out this isn't the best way to do it (I'll touch on that in the next few posts) but it works. cPanel provides an FTP client, all you need to do is login with your ASO information for your hosting server and copy the file into the WWW/ directory and voila, you have hosted your first website!</p>
