@@ -44,8 +44,8 @@
           <div class="jumbotron">
             <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile">
             <h1>Blog</h1>
-            <h2>Description</h2>
-            <p>Text</p>
+            <h2>This is my blog</h2>
+            <p>It's about a lot of things, mostly tech</p>
           </div>
 
           <?php
@@ -59,7 +59,7 @@
               echo '<div class="well well-sm"';
               echo '  <article>';
               echo '    <h2>' . $title . '</h2>';
-              echo '    <p>'  . $content . '</p>';
+              echo      $content;
               echo '  </article>';
               echo '</div>';
             }

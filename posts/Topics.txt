@@ -5,3 +5,5 @@
 5. Using git instead of FTP
 6. Twitter Bootstrap 3
 7. Jekyll or Custom
+8. Amazon Web Services
+9. Social Site APIs

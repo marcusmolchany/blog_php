@@ -1,10 +1,7 @@
 Domain and Hosting
 
-Place holder for the Domain and Hosting Post
-1. Buying a domain from GoDaddy
-2. Types of hosting
-	a. GoDaddy
-	b. A Small orange
-	c. Amazon Web Services (EC2 & S3)
-	d. etc
-3. How to connect domain and hosting
+<p>To launch a website that is reachable by the general public you need two things, a domain name and hosting. A domain name is the address you type into your browser to reach existing websites. There are a lot of companies which sell domain names such as <a href="http://www.godaddy.com">GoDaddy</a> <a href="http://www.name.com">Name.com</a> <a href="http://www.hover.com">Hover.com</a> <a href="https://www.namecheap.com/">Namecheap</a>, the list goes on just do a google search. Unaware of <a href="http://techcrunch.com/2011/12/29/burned-by-fleeing-customers-godaddy-no-longer-just-doesnt-support-but-actually-opposes-sopa/">the controvery over supporting SOPA</a>, I chose to buy my domain from GoDaddy (don't hate me). A friend gave me a hard time the other day about this, you can read into it however much you want, but at the end of the day I have the domain I wanted.</p>
+
+<p>GoDaddy offers a simple dashboard to keep track of your domains, as well as payments and account settings. Clicking lanch on one of your names brings up a new page with all of the settings for that domain. You can purchase hosting through GoDaddy, but I chose to go through a local company with really great around-the-clock support (shout out to <a href="http://asmallorange.com/">A Small Orange</a>). During this post and future posts I may abbreviate A Small Orange as ASO. We're about to talk about hosting but note one thing on the "Domain Details" page, the Nameservers field. If you choose to do hosting through another company you must change the nameservers to match your hosting, otherwise your domain name won't take you to where your website is hosted!</p>
+
+<p>Hosting is how you store the files that make up your website and allow people to reach them. A Small Orange is a really great hosting company known for its exceptional customer service at all hours of the day. It's also a local company based out of Durham, NC. After making an account and logging in you have to choose an order for what type of hosting you would like. ASO hosts websites from indie devs like myself all the way up to large companies so this page is very important, make sure you pic the hosting that is right for you. I chose a "Tiny" 250 MB of storage with 5 GB of bandwith @ $35/year. $35/year! That's pretty incredible considering the customer service that comes with it. Other options are "Small", "Medium", "Large" and "Super" but these are more so for companies that need to store a decent amount of data as well as host a webpage. Once your order goes through it will be under the "Your Services" section in the dashboard. Here you can link your domain name, view how much storage you have used, upgrade/downgrade as needed and launch cPanel. cPanel allows you manage the software for your hosting, there are some really great tutorial out there if you'd like to know more, just pick your favorite search engine and type "cpanel".</p>
