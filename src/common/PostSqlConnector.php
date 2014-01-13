@@ -8,7 +8,7 @@ class PostSqlConnector extends SqlConnector{
 		//parent::__construct($hostName, $userName, $password, 'marcusdb', 'post');
 		$config = parse_ini_file($_SERVER['DOC_ROOT'] . "../config.ini");
 		
-		parent::__construct($hostName, $userName, $password, $config['db_name'], $config['table_name']);
+		parent::__construct($config['hostName'], $config['userName'], $config['password'], $config['dbName'], $config['tableName']);
 	}
 
 	public function getAssociativityArray() {

@@ -56,7 +56,10 @@
                */
               extract($blogPost);
 
-              echo '<div class="well well-sm"';
+              echo '<a name="' . $id . '"></a>';
+              echo '</br>';
+              echo '</br>';
+              echo '<div class="well well-sm">';
               echo '  <article>';
               echo '    <h2>' . $title . '</h2>';
               echo      $content;
