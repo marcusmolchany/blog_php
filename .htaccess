@@ -1,0 +1,2 @@
+SetEnv DOC_ROOT ""
+ErrorDocument 404 /404.php
