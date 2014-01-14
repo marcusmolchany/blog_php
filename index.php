@@ -42,7 +42,7 @@
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Benefits of Shell Acess</h2>
+              <h2>Benefits of Shell Access</h2>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
