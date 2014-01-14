@@ -21,6 +21,7 @@ abstract class SqlConnector extends AbstractSqlConnector {
 		$this->password = $password;
 		$this->databaseName = $databaseName;
 		$this->tableName = $tableName;
+		$this->resultArray = array();
 
 		//Database Connection
 		$this->sqlConn =  new mysqli($hostName, $userName, $password, $databaseName);
@@ -41,17 +42,26 @@ abstract class SqlConnector extends AbstractSqlConnector {
 
 	public function copyToAssociativeArray() {
 		//Copy result into a associative array
-		$this->resultArray = $this->result->fetch_all(MYSQLI_ASSOC);
+		//$this->resultArray = $this->result->fetch_all(MYSQLI_ASSOC);
+		while ($row = $this->result->fetch_assoc()) {
+		   array_push($this->resultArray, $row); 
+		}
 	}
 
 	public function copyToNumericArray() {
 		//Copy result into a associative array
-		$this->resultArray = $this->result->fetch_all(MYSQLI_NUM);
+		//$this->resultArray = $this->result->fetch_all(MYSQLI_NUM);
+		while ($row = $this->result->fetch_assoc()) {
+		   array_push($this->resultArray, $row); 
+		}
 	}
 
 	public function copyToAssociativeAndNumericArray() {
 		//Copy result into both a associative and numeric array
-		$this->resultArray = $this->result->fetch_all(MYSQLI_BOTH);
+		//$this->resultArray = $this->result->fetch_all(MYSQLI_BOTH);
+		while ($row = $this->result->fetch_assoc()) {
+		   array_push($this->resultArray, $row); 
+		}
 	}
 
 	public function printArray() {
