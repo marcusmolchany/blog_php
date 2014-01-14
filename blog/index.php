@@ -42,10 +42,14 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile">
+            <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile"/>
             <h1>Blog</h1>
-            <h2>This is my blog</h2>
-            <p>It's about a lot of things, mostly tech</p>
+            <h2>Thanks for stopping by my blog!</h2>
+            <p>
+              It's about a lot of things, mostly tech. The past few months of my life have been dedicated to learning web
+              development, working on side projects and making this website so please enjoy, and if you have any questions,
+              comments or suggestions you can reach out to me on any of the accounts listed on my <a href='/about'>about</a> page.
+            </p>
           </div>
 
           <?php

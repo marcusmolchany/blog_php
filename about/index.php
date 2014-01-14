@@ -28,9 +28,14 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile">
+            <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile"/>
             <h1>About</h1>
-            <p>Marcus Molchany</p>
+            <p>
+              Hey I'm Marcus Molchany. I am a software engineer and currently work at NetApp. In 2012 I graduated from Duke University
+              with a Dual Major in Electrical & Computer Engineering and Computer Science. Outside of work and side projects I love to
+              do Crossfit, running and mountain biking and most importantly trips to the beach for some surfing. Thanks for checking out
+              my site, you can reach me at any of the social accounts below.
+            </p>
             <a href="https://twitter.com/molchanimal" target="_blank">@molchanimal</a>
             <p></p>
             <a href="https://github.com/marcusmolchany" target="_blank">github</a>

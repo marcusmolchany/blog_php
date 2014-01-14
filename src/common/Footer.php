@@ -8,7 +8,7 @@ class Footer {
       <hr>
 
       <footer>
-        <p>&copy; Marcus Molchany 2013</p>
+        <p>&copy; Marcus Molchany 1990-2014</p>
       </footer>
 	  ";
 	}
