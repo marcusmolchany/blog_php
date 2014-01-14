@@ -24,9 +24,6 @@
 
       <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-12 col-sm-12">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
           <div class="jumbotron">
 	          <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile"/>
             <h1>Hello!</h1>
@@ -37,28 +34,35 @@
             </p>
           </div>
           <div class="row">
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-6">
               <h2>Twitter Bootstrap 3</h2>
+              <span class="label label-info">Coming Soon!</span>
+              <p> A post about the wonders of Twitter's open source framework Bootstrap 3 </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-6">
               <h2>Version Control: GIT instead of FTP</h2>
+              <p> Why using git for your project makes pushing new versions of your site so, so much easier than FTP </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-6">
               <h2>Benefits of Shell Access</h2>
+              <p> Get root shell access to your web hosting for more control and flexibility with your website </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-6">
               <h2>Index File and FTP</h2>
+              <p> How to make your first index file and send it up to your web hosting server </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-6">
               <h2>Domain and Hosting</h2>
+              <p> The two essential parts for making your website accessible on the world wide web </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-6">
               <h2>Introduction</h2>
+              <p> A quick intro and comment on why I started this website and blog </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->

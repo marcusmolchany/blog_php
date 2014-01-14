@@ -24,9 +24,6 @@
 
       <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-12 col-sm-12">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
           <div class="jumbotron">
             <img src="<?php echo $_SERVER['DOC_ROOT']; ?>/images/profile.jpg" class="img-circle img-responsive" id="profile"/>
             <h1>About</h1>
