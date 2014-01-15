@@ -35,8 +35,21 @@
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-6">
-              <h2>Twitter Bootstrap 3</h2>
+              <h2>Amazon Web Services: EC2</h2>
               <span class="label label-info">Coming Soon!</span>
+              </br>
+              <p> Forget paying for hosting, Amazon gives it away for free!. A quick post about what AWS provides and how to get started. </p>
+              <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h2>Blogging: Jekyll, WordPress or Custom Design</h2>
+              <span class="label label-info">Coming Soon!</span>
+              </br>
+              <p> Turns out there are a lot of resources out there for making blogs, this post talks about each and when to use them. </p>
+              <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h2>Twitter Bootstrap 3</h2>
               <p> A post about the wonders of Twitter's open source framework Bootstrap 3 </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
