@@ -7,3 +7,4 @@
 7. Jekyll or Custom
 8. Amazon Web Services
 9. Social Site APIs
+10. Koans (JavaScript)
