@@ -10251,6 +10251,75 @@ img {
   width: 25%;
 }
 
+/* line 12, ../sass/externals/custom/_custom.sass */
+.navbar-default {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+/* line 15, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-brand {
+  color: #bdc3c7;
+}
+/* line 17, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ecf0f1;
+}
+/* line 20, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > li > a {
+  color: #bdc3c7;
+}
+/* line 22, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ecf0f1;
+}
+/* line 24, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .active > a {
+  color: #ecf0f1;
+  background-color: #34495e;
+}
+/* line 27, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ecf0f1;
+  background-color: #34495e;
+}
+/* line 30, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .open > a {
+  color: #555555;
+  background-color: #d5d5d5;
+}
+/* line 33, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #555555;
+  background-color: #d5d5d5;
+}
+/* line 37, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777;
+}
+/* line 40, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .dropdown > a:hover .caret, .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+/* line 44, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-nav > .open > a .caret, .navbar-default .navbar-nav > .open > a:hover .caret, .navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+/* line 47, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+/* line 49, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+/* line 51, ../sass/externals/custom/_custom.sass */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+
 /* Style twaks
  * -------------------------------------------------- */
 /* line 5, ../sass/externals/offcanvas/_offcanvas.sass */
@@ -10366,12 +10435,12 @@ code {
   }
 }
 
-/* line 10, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 .ps-main {
   clear: both;
   min-height: 100%;
@@ -10379,12 +10448,12 @@ html, body {
   height: 100%;
   margin-bottom: -30px;
 }
-/* line 18, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 .ps-main .ps-footer-root {
   height: 30px;
 }
 
-/* line 20, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 .ps-footer {
   clear: both;
   position: relative;
