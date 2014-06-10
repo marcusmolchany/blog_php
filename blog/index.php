@@ -63,8 +63,8 @@
               echo '<div class="well well-sm">';
               echo '  <article>';
               echo '    <h2>' . $title . '</h2>';
-              $formatted_date = new DateTime($timestamp);
-              echo $formatted_date->format('M j Y g:i A');
+//              $formatted_date = new DateTime($timestamp);
+//              echo $formatted_date->format('M j Y g:i A');
               echo '</br>';
               echo '</br>';
               echo      $content;
