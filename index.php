@@ -38,7 +38,7 @@
               <h2>Amazon Web Services: EC2</h2>
               <span class="label label-info">Coming Soon!</span>
               </br>
-              <p> Forget paying for hosting, Amazon gives it away for free!. A quick post about what AWS provides and how to get started. </p>
+              <p> Forget paying for hosting, Amazon gives it away for free! A quick post about what AWS provides and how to get started. </p>
               <p><a class="btn btn-default" href=<?php echo "'" . $_SERVER['DOC_ROOT'] . "/blog'"?>>Read more &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-6">
